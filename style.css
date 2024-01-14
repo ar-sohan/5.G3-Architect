@@ -67,11 +67,97 @@
 }
 
 /*------------------------------
-        fonts setup
+        our teams section 
 --------------------------------*/
+.team-section{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 120px;
+}
+.team-graphics{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.team-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.team-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.text-quick{
+    color:#727272;
+}
+.text-our{
+    color:#131313;
+}
+.text-feature{
+    color:#FF900E;
+}
+.section-description{
+    color:#727272;
+    font-size: 16px;
+}
+
 /*------------------------------
-        fonts setup
+     the features section
 --------------------------------*/
+.feature-section{
+    padding: 80px 120px;
+    display: flex;
+    gap: 50px;
+}
+.feature-title{
+    border-left: 10px solid #FF900E;
+    padding-left: 20px;
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.feature-details{
+    margin-left: 10px;
+    padding: 25px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.feature-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+}
+.feature-graphics img{
+    max-width: min-content;
+    position: relative;
+    left: 75px;
+}
+.ten-years{
+    background-color: #FF900E;
+    color: white;
+    width: fit-content;
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    bottom: 75px;
+}
+.ten-title{
+    font-size: 65px;
+    margin: 0px;
+    font-weight: 700;
+}
+.ten-text{
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+    font-weight: 500;
+}
 /*------------------------------
         fonts setup
 --------------------------------*/
