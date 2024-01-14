@@ -159,25 +159,102 @@
     font-weight: 500;
 }
 /*------------------------------
-        fonts setup
+    the company fact section
 --------------------------------*/
+.fact-section{
+    padding: 50px 120px;
+}
+.fact-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.fact-container{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.fact-details{
+    padding: 30px;
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fact-image{
+    margin: auto;
+}
+.number{
+    color:#424242;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.topic{
+    color:#727272;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+}
 /*------------------------------
-        fonts setup
+    the sponsors section
 --------------------------------*/
+.sponsors-section{
+    padding: 80px 120px;
+}
+.sponsors-title{
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.sponsors-text{
+    text-align: center;
+}
+.sponsors-image-container{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 /*------------------------------
-        fonts setup
+      the footer section
 --------------------------------*/
-/*------------------------------
-        fonts setup
---------------------------------*/
-/*------------------------------
-        fonts setup
---------------------------------*/
-/*------------------------------
-        fonts setup
---------------------------------*/
-/*------------------------------
-        fonts setup
---------------------------------*/
+.footer{
+    margin: 80px 120px;
+    background-color: #FFF4E7;
+    border: none;
+    padding: 30px 0px;
+    border-radius: 20px;
+}
+.footer-text{
+    text-align: center;
+    color:#424242;
+    font-size: 20px;
+}
+/*----------------------------------------
+    responsiveness for mobile devices
+------------------------------------------*/
+@media screen and (max-width:576px) {
+    .banner, .nav > ul, .team-section, .feature-section, .fact-container, .sponsors-image-container{
+        flex-direction: column;
+    }
+    .team-graphics{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-graphics  img, .feature-graphics  img{
+        width: 80vw;
+    }
+}
+/*----------------------------------------
+    responsiveness for medium devices
+------------------------------------------*/
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+}
 
 
